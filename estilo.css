@@ -1,0 +1,175 @@
+	body {
+		font: 1em calibri, Helvetica, sans-serif;
+		background-image: url('imagens/fundo8.jpg');
+		background-size: 100% 100%;
+	}
+	a {
+		color: white;
+
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	h2 {
+		font: bold 2em calibri, Helvetica, sans-serif;
+		text-align: center;
+	}
+	/*Estrutura */
+	#conteiner {
+		padding: 5px;
+		width: 960px;
+		margin: auto;
+		margin-top: 10px;
+		background-color: transparent;
+		/*-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -webkit-box-shadow:0px 0 50px #ccc;
+        -moz-box-shadow:0px 0 50px #ccc;
+        box-shadow:0px 0 50px #ccc;*/
+
+	}
+	#header {
+		height: 180px;
+
+
+	}
+	#menu{
+		padding: 5px;
+		height: 30px;
+		text-align: center;
+		background-color: transparent;;
+	}
+
+	#text {
+		position: center;
+		width: 640px;
+		float: right;
+		background: forestgreen;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        text-align: center;
+        color: white;
+	}
+	#selecao {
+		position: center;
+		width: 640px;
+		float: right;
+		background: gold;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        text-align: left;
+        color: white;
+	}
+
+	#noticia {
+		position: center;
+		width: 640px;
+		height: 300px;
+		float: right;
+		background: forestgreen;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        color: white;
+	}
+	#estadio {
+		position: center;
+		width: 960px;
+		float: right;
+		background: transparent;
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        text-align: center;
+	}
+	#sidebar {
+		width: 300px;
+		float: left;
+		padding-left: 5px;
+		background: transparent;
+		text-align: center;
+        text-decoration: bold;
+		
+	}
+	#sidebar1 {
+		width: 300px;
+		float: right;
+		padding-left: 5px;
+		background: transparent;
+		text-align: center;
+        text-decoration: bold;
+		
+	}
+
+	#footer {
+		clear: both;
+		background: -moz-linear-gradient(left, rgba(125,126,125,1) 0%, rgba(51,171,62,1) 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(249,253,249,1)), color-stop(100%,rgba(51,171,62,1)));
+		-moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+	}
+
+    #sidebar, #text {
+		margin-bottom: 5px;
+	}
+	#conteiner {
+		border: solid 1px #ccc;
+	}
+	#imgfoot{
+		width: 150px;
+		position: relative;
+		left: 80%;
+	}
+	#lista ul{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+
+	}
+	#lista ul li{
+		display: inline; 
+		position: relative;
+	}
+	#lista ul li a{
+		padding: 2px 10px;
+		display: inline-block;
+		background-color: #228B22;
+		border-radius: 8px;
+		color: white;
+		text-decoration: none;
+		border-bottom:3px solid #FFD700;
+	}
+	#lista ul li a:hover {
+		background-color: #FFD700;
+		border-radius: 8px;
+		color: white;
+		border-bottom:3px solid #228B22;
+	}
+
+
+	#logo{
+		position: relative;
+		left: 13.6%;
+		-webkit-border-radius: 5px;
+  		-moz-border-radius: 5px;
+  		width: 970px;
+	}
+	#foto{
+		margin-top: 20px;
+		-webkit-border-radius: 5px;
+  		-moz-border-radius: 5px;
+
+	}
+
+	.estad1{
+		border: 1px;
+		background-color: gold;
+		color: white;
+	}
+
+	.estad2{
+		border: 1px;
+		background-color: forestgreen;
+		color: white;
+	}
+
+
+	
